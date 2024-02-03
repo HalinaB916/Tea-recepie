@@ -4,9 +4,9 @@
 <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width">
-      <!-- Add your recipe title here -->
       <title>My Recipe</title>
-
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+      type="text/css" />
       <link href="index.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -26,7 +26,8 @@
      
 
       <section>
-            <h2>Ingedients</h2>
+      <section id="ingredients" onmouseover="ingredientsHover()" onmouseout="ingredientsNormal()">
+            <h2>Ingredients <i class="fa fa-coffee" arial-hidden="true"></i> </h2>
             <ul>
                   <li>Tea Bag</li>
                   <li>Water</li>
@@ -35,8 +36,8 @@
             </ul>
       </section>
 
-      <section>
-            <h2>Preparation</h2>
+<section id="preparation" onmouseover="preparationHover()" onmouseout="preparationNormal()">
+      <h2>preparation <i class="fa fa-check-circle-o" arial-hidden="true" style="font-size: 100%;"></i> </h2>
             <ol>
                   <li>Fill up the kettle with water.</li>
                   <li>Boil the kettle.</li>
@@ -50,12 +51,14 @@
       </section>
 
       <footer>
+            <p>
             Created by Galina Borsak 2024
+            </p>
       </footer>
 </div>
       </header>
 
-      <script src="script.js"></script>
+      <script src="index.js"></script>
 </body>
 
 </html>

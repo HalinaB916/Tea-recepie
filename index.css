@@ -6,10 +6,15 @@ body {
 h1 {
       text-align: center;
       font-size: 300%;
+      color: #FEAC1A;
+}
+
+a {
+      color: #FDC619;
 }
 
 h2 {
-      color: Orange;
+      color: #FDC619;
       text-transform: uppercase;
       font-weight: 100;
 }
@@ -23,8 +28,9 @@ img {
 
 footer {
       margin-top: 70px;
-      background-color: Orange;
+      background-color: #FDC619;
       color: White;
+      border-radius: 10px;
 }
 
 footer p {
